@@ -1,0 +1,14 @@
+/*- **Both elements**: a font size of 28px and a list of fonts containing `Helvetica` and `Times New Roman`, with `sans-serif` as a fallback*/
+.click, .no-click{ /*Using button instead of click, no-click achieve the same outcome.*/
+    font-size: 28px;
+    font-family: 'Helvetica', 'Times New Roman', 'sans-serif';
+}
+
+.click{
+    background-color: black;
+    color: white;
+}
+
+.no-click{
+    background-color: yellow;
+}
